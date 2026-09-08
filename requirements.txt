@@ -1,0 +1,34 @@
+# Core data handling
+pandas
+numpy
+
+# Market data download
+yfinance
+pandas_datareader
+
+# Technical indicators (RSI, Bollinger, ATR, MACD, ...)
+# Not included: pandas_ta requires Python >=3.12 (venv here is 3.11).
+# Recommended for learning: implement these indicators yourself with pandas/numpy
+# instead of relying on the library.
+
+# Stats / regression (rolling Fama-French factor betas)
+statsmodels
+
+# ML (K-Means clustering)
+scikit-learn
+
+# Portfolio optimization (Efficient Frontier / max Sharpe)
+PyPortfolioOpt
+
+# GARCH volatility modeling (needed later for the intraday project)
+arch
+
+# Plotting
+matplotlib
+
+# Computer vision (YOLOv8 project)
+fastapi
+uvicorn
+ultralytics
+opencv-python
+websockets
