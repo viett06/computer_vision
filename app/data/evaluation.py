@@ -50,7 +50,7 @@ def main():
     df["absolute_error"] = df["error"].abs()
 
     print(
-    df.gr`oupby("vehicle_type")["absolute_error"].mean()
+    df.groupby("vehicle_type")["absolute_error"].mean()
 )
 
     df["percentage_error"] = (
