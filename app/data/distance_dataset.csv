@@ -1,0 +1,6 @@
+vehicle_type,pixel_width,ground_truth_distance
+car,74,20
+car,51,30
+car,35,40
+truck,31,50
+truck,22,60
