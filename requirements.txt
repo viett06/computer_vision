@@ -26,6 +26,10 @@ arch
 # Plotting
 matplotlib
 
+# Jupyter Notebook
+notebook
+ipykernel
+
 # Computer vision (YOLOv8 project)
 fastapi
 uvicorn

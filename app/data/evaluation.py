@@ -49,9 +49,16 @@ def main():
     # Absolute error
     df["absolute_error"] = df["error"].abs()
 
+    print("\nError by vehicle type:")
     print(
-    df.groupby("vehicle_type")["absolute_error"].mean()
-)
+        df.groupby("vehicle_type")["absolute_error"].agg(
+            count="count",
+            mean="mean",
+            std="std",
+            min="min",
+            max="max"
+        )
+    )
 
     df["percentage_error"] = (
     df["absolute_error"]
